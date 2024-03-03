@@ -15,7 +15,7 @@ env:
   # Private SSH Key
   PRIV_SSH_KEY: ENCRYPTED[f089734f7284794ec3d78e4fb239fd4e5a9b4db19173fb406d17b1788af1b9cc50e6b4b5c0e439bd7b2bd9feced489a8]
 
-task:
+job:
   name: "Firmware Dump by DumprX"
   only_if: $CIRRUS_REPO_OWNER == 'DumprX'
   skip: $CIRRUS_BRANCH == 'main'
