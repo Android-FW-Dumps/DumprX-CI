@@ -1,3 +1,7 @@
+name: Firmware Dump
+
+on:
+  workflow_dispatch:
 env:
   # Telegram
   TG_CHAT: "@DumprXDumps"
